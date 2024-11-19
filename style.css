@@ -1,0 +1,167 @@
+.menu{  
+    width: 100%;
+    height: 65px;
+    background-color: rgb(250, 250, 250);
+    padding-top: 15px;
+    border-bottom: 2px solid hsl(222, 59%, 45%);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 15px;
+    text-align: right;
+}
+
+.nav ul li {
+    margin-right: 70px; 
+    font-size: large;
+    font-family: Georgia, serif;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    transition: width 0.3s ease;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+a:hover:after{
+    transform: scaleX(1);
+}
+
+.nav ul li:not(:last-child) {   
+    margin-right: 35px;
+}
+
+.nav ul li.first {
+    text-transform: uppercase;
+    margin-right: 800px; 
+}
+
+.page{
+    background-image: url("https://img.freepik.com/premium-vector/abstract-white-gray-backdrop-modern-halftone-wave-background-design_29865-3730.jpg");
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-top: 120px;
+}
+
+.somewords{
+    padding-left: 180px;
+    padding-top: 40px;
+}
+
+.h1{
+    font-size: 100px;
+}
+
+.main_image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 260px;
+    object-fit: cover;
+}
+
+.icon_link{
+    font-size: 25px;
+    color: hsl(222, 59%, 45%);
+}
+
+.all_icons{
+    display: flex;
+    gap: 15px;
+}
+
+.page_second {
+    padding-top: 140px;
+    background-color: hsl(222, 53%, 53%);
+    width: 100%;
+    height: 460px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.polaroid {
+    height: 325px;
+    width: 425px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+    text-align: center;
+}
+
+.page_third{
+    width: 100%;
+    height: 700px;
+}
+
+.header_third{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.header_MindBox{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.project_photos1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.project_photos2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 90px;
+}
+
+.last_page{
+    display: flex;
+    justify-content: right; 
+    gap: 500px;
+    width: 100%;
+    height: 200px;
+    background-color: hsl(222, 53%, 53%);
+}
+
+.address{
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.location{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.section_movie{
+    background-color: rgb(235, 235, 235);
+    width: 1500px;
+    height: 600px;
+}
+
